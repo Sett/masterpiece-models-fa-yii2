@@ -1,0 +1,24 @@
+{
+  "name": "funcraft/masterpiece-models-fa-yii2",
+  "description": "Masterpiece model for projects based on Yii2",
+  "type": "library",
+  "keywords": ["masterpiece", "funcraft", "yii2"],
+  "authors":[
+    {
+      "name": "Funcraft",
+      "email": "what4me@yandex.ru",
+      "homepage": "http://funcraft.ru",
+      "role": "developer"
+    }
+  ],
+  "require":{
+    "funcraft/masterpiece-interfaces": "0.*",
+    "funcraft/masterpiece-models": "0.*",
+    "yiisoft/yii2-dev": "2.*"
+  },
+  "autoload":{
+    "psr4":{
+      "funcraft\\masterpiece\\": ""
+    }
+  }
+}
